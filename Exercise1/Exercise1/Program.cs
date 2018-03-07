@@ -21,6 +21,7 @@ namespace Exercise1
             Console.WriteLine(list1.Length);
             Console.WriteLine(id.Length);
 
+            Console.WriteLine();
             
             Array.Copy(list1, id, 10);
 
@@ -29,19 +30,30 @@ namespace Exercise1
                 Console.WriteLine(id[i]);
             }
 
+            Console.WriteLine();
             
             Console.WriteLine(name.GetType());
             Console.WriteLine(id.GetType());
 
+            Console.WriteLine();
             
             Console.WriteLine(list2.GetValue(5));
 
-            //Array.IndexOf(list1, 1234);
+            Console.WriteLine();
 
-            //foreach (int i in list1) 
-            //{
-            //    Console.WriteLine(list1[i]);
-            //}
+            Array.IndexOf(list1, 5);
+
+            foreach (int i in list1)
+            {
+                Console.WriteLine(i + "");
+            }
+            
+            /*foreach (int i in list1) 
+            {
+               
+            }*/
+
+            Console.WriteLine();
 
             Array.Reverse(list2);
 
@@ -50,7 +62,11 @@ namespace Exercise1
                 Console.WriteLine(i + "");
             }
 
+            Console.WriteLine();
+
             // Console.WriteLine(list2.SetValue(1, 1));
+
+            
 
             Array.Sort(list2);
 
@@ -58,6 +74,8 @@ namespace Exercise1
             {
                 Console.WriteLine(i + "");
             }
+
+            Console.WriteLine();
 
             Array.Sort(list1);
 
