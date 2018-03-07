@@ -36,17 +36,36 @@ namespace Exercise1
             
             Console.WriteLine(list2.GetValue(5));
 
-            Array.IndexOf(list1, 4);
+            //Array.IndexOf(list1, 1234);
 
-            for (int i = 0; i <= 9; i++) 
+            //foreach (int i in list1) 
+            //{
+            //    Console.WriteLine(list1[i]);
+            //}
+
+            Array.Reverse(list2);
+
+            foreach (string i in list2)
             {
-                Console.WriteLine(list2[i]);
+                Console.WriteLine(i + "");
             }
 
-            Console.WriteLine();
+            // Console.WriteLine(list2.SetValue(1, 1));
 
+            Array.Sort(list2);
 
-            
+            foreach (string i in list2)
+            {
+                Console.WriteLine(i + "");
+            }
+
+            Array.Sort(list1);
+
+            foreach (int i in list1)
+            {
+                Array.Reverse(list1);
+                Console.WriteLine(i + "");
+            }
         }
     }
 }
