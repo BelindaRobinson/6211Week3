@@ -48,10 +48,11 @@ namespace Exercise1
                 Console.WriteLine(i + "");
             }
             
-            /*foreach (int i in list1) 
+            foreach (int i in list1) 
             {
-               
-            }*/
+                //Console.WriteLine(list1[i]);
+                Console.WriteLine(i);
+            }
 
             Console.WriteLine();
 
