@@ -41,11 +41,11 @@ namespace Exercise1
 
             Console.WriteLine();
 
-            Array.IndexOf(list1, 5);
+            Array.IndexOf(list1, 2);
 
             foreach (int i in list1)
             {
-                Console.WriteLine(i + "");
+               Console.WriteLine(i + "");
             }
             
             foreach (int i in list1) 
@@ -65,7 +65,7 @@ namespace Exercise1
 
             Console.WriteLine();
 
-            // Console.WriteLine(list2.SetValue(1, 1));
+            //Console.WriteLine(list2.SetValue(0, 1));
 
             
 
